@@ -78,6 +78,19 @@ main a{
   background: white;
 }
 
+main {
+  animation-duration: 1s;
+  animation-name: fadein;
+}
+
+@keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* code heb ik van https://blog.hubspot.com/website/css-fade-in?_ga=2.62813356.1036256435.1585095545-1753121421.1568128919#text-transition
+*/
+
 .index ul{
   display: flex;
   background-color: white;
